@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">LePokedex</string>
+    <string name="filter">Filtrar</string>
+    <string name="item_hp">HP</string>
+    <string name="item_attack">Attack</string>
+    <string name="item_defense">Defense</string>
+    <string name="item_speed">Speed</string>
+    <string name="crear_pokemon">Crear Pokemon</string>
 </resources>

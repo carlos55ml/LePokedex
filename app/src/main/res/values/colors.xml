@@ -2,4 +2,20 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Tema -->
+    <color name="primary">#FFDC0A2D</color>      <!-- rojo Pokédex -->
+    <color name="secondary">#FF3B4CCA</color>    <!-- azul Pokémon -->
+
+    <!-- Tipos (TipoPokemon) -->
+    <color name="type_electrico">#FFF6FF45</color>
+    <color name="type_fuego">#FFFF4545</color>
+    <color name="type_tierra">#FF60BD3E</color>
+    <color name="type_agua">#FF3A80AB</color>
+
+    <!-- Números de estadísticas (oscuros para leerse sobre cualquier tipo) -->
+    <color name="stat_hp">#FF5C0A14</color>       <!-- granate -->
+    <color name="stat_attack">#FF3D1F00</color>   <!-- marrón -->
+    <color name="stat_defense">#FF0A1F3D</color>  <!-- azul marino -->
+    <color name="stat_speed">#FF1F0A3D</color>    <!-- morado oscuro -->
 </resources>
