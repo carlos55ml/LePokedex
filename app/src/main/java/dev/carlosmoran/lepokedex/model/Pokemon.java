@@ -1,20 +1,22 @@
-package claseobjeto;
+package dev.carlosmoran.lepokedex.model;
 
 public class Pokemon {
     private static int nextid = 0;
 
-    private int id;
+    private final int id;
     private String nombre;
     private int hp;
+    private int ataque;
     private int defensa;
     private int velocidad;
 
     private TipoPokemon tipo;
 
-    public Pokemon(String nombre, int hp, int defensa, int velocidad, TipoPokemon tipo) {
+    public Pokemon(String nombre, int hp, int ataque, int defensa, int velocidad, TipoPokemon tipo) {
         this.id = nextid;
         this.nombre = nombre;
         this.hp = hp;
+        this.ataque = ataque;
         this.defensa = defensa;
         this.velocidad = velocidad;
         this.tipo = tipo;
@@ -39,6 +41,14 @@ public class Pokemon {
 
     public void setHp(int hp) {
         this.hp = hp;
+    }
+
+    public int getAtaque() {
+        return ataque;
+    }
+
+    public void setAtaque(int ataque) {
+        this.ataque = ataque;
     }
 
     public int getDefensa() {
