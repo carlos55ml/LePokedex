@@ -1,6 +1,7 @@
 package dev.carlosmoran.lepokedex.model;
 
 import androidx.annotation.ColorRes;
+import androidx.annotation.NonNull;
 
 import dev.carlosmoran.lepokedex.R;
 
@@ -26,5 +27,11 @@ public enum TipoPokemon {
     @ColorRes
     public int getColor() {
         return color;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return label;
     }
 }

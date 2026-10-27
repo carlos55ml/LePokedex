@@ -21,8 +21,8 @@ public class PokemonAdapter extends ArrayAdapter<Pokemon> {
     private Context mContext;
 
 
-    public PokemonAdapter(@NonNull Context context, int resource, int textViewResourceId, @NonNull List<Pokemon> objects) {
-        super(context, resource, textViewResourceId, objects);
+    public PokemonAdapter(@NonNull Context context, int resource, @NonNull List<Pokemon> objects) {
+        super(context, resource, objects);
         this.mPokemons = objects;
         this.mContext = context;
     }
