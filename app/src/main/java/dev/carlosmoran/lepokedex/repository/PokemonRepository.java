@@ -50,6 +50,14 @@ public class PokemonRepository {
         return null;
     }
 
+    public List<Pokemon> getByTipo(TipoPokemon tipo){
+        List<Pokemon> filtered = new ArrayList<>();
+        for(Pokemon p : pokemons){
+            if (p.getTipo() == tipo) filtered.add(p);
+        }
+        return filtered;
+    }
+
     public void add(Pokemon p) { pokemons.add(p); }
 
     public void update(int id, String nombre, int hp, int ataque, int defensa, int velocidad, TipoPokemon tipo) {

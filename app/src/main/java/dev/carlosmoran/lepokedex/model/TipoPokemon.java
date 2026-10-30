@@ -9,7 +9,8 @@ public enum TipoPokemon {
     ELECTRICO("Electrico", R.color.type_electrico),
     FUEGO("Fuego", R.color.type_fuego),
     TIERRA("Tierra", R.color.type_tierra),
-    AGUA("Agua", R.color.type_agua);
+    AGUA("Agua", R.color.type_agua),
+    TODO("Todos", 0);
 
     public final String label;
     @ColorRes
